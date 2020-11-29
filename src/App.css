@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.main_count{
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #7E5EBB, #6C2592);
+    margin: 20px 20px 0 50px;
+    padding: 20px;
+    color: darkcyan;
+    font-family: 'Nerko One', cursive;
+    font-size: 35px;
+    border: 1px solid black;
+    height: 207px;
+    display: inline-block;
+}
+.count{
+    border: black solid 1px;
+    margin: 10px;
+    width: 280px;
+    border-radius: 10px;
+    color: blueviolet;
+    background: linear-gradient(to top, #E78E2E, #F6A75F);
+
+}
+.btn_count{
+
+    border: black solid 1px;
+    margin: 10px;
+    width: 280px;
+    border-radius: 10px;
+    background: linear-gradient(to top, #E78E2E, #F6A75F);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*settings styles*/
+
+.main{
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #7E5EBB, #6C2592);
+    padding: 20px;
+    font-family: 'Nerko One', cursive;
+    color: darkcyan;
+    text-align: center;
+    font-size: 35px;
+    display: inline-block;
+    border: 1px solid black;
+    width: 300px;
+ }
+
+.inp_pan{
+    margin: 10px;
+    border: 1px solid black;
+    color: blueviolet;
+    background: linear-gradient(to top, #E78E2E, #F6A75F);
+    border-radius: 10px;
+}
+.btn_block{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to top, #E78E2E, #F6A75F);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.red{
+    color: red;
+    font-size: 35px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+    margin: 10px;
+    min-width: 100px;
+    border-radius: 20px;
+    padding:0 20px 0 ;
 }
